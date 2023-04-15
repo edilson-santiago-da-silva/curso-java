@@ -1,7 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
 
 public class ExercicioSemOrientacaoAObjetos {
 
@@ -9,26 +8,24 @@ public class ExercicioSemOrientacaoAObjetos {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Triangle x, y;  // Criação das variáveis do tipo Triangle orientado da classe entities(entidades)
-		x = new Triangle(); // criação do objeto -- Instanciação (alocação dinâmica de memória)
-		y = new Triangle(); // criação do objeto 
+		double xA, xB, xC, yA, yB, yC;
 		
 		
 		System.out.println("Enter the measures of triangle X: ");
-		x.a = sc.nextDouble();
-		x.b = sc.nextDouble();
-		x.c = sc.nextDouble();
+		xA = sc.nextDouble();
+		xB = sc.nextDouble();
+		xC = sc.nextDouble();
 		
 		System.out.println("Enter the measures of triangle y: ");
-		y.a = sc.nextDouble();
-		y.b = sc.nextDouble();
-		y.c = sc.nextDouble();
+		yA = sc.nextDouble();
+		yB = sc.nextDouble();
+		yC = sc.nextDouble();
 		
-		double p = (x.a + x.b + x.c) / 2;
-		double areaX = Math.sqrt(p * (p - x.a) * (p - x.b ) * (p - x.c));
+		double p = (xA + xB + xC) / 2;
+		double areaX = Math.sqrt(p * (p - xA) * (p - xB ) * (p - xC));
 		
-		p = (y.a + y.b + y.c) / 2;
-		double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+		p = (yA + yB + yC) / 2;
+		double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
 		
 		System.out.printf("Triangle X area: %.4f %n", areaX);
 		System.out.printf("Triangle Y area: %.4f %n", areaY);
