@@ -21,6 +21,8 @@ public class ExercicioSemOrientacaoAObjetos {
 		yB = sc.nextDouble();
 		yC = sc.nextDouble();
 		
+		
+		
 		double p = (xA + xB + xC) / 2;
 		double areaX = Math.sqrt(p * (p - xA) * (p - xB ) * (p - xC));
 		
