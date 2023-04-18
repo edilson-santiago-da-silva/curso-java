@@ -1,4 +1,4 @@
-package entities;
+package entitiesTriangle;
 
 public class Triangle {
 		
@@ -6,7 +6,7 @@ public class Triangle {
 		public double b;
 		public double c;
 		
-		public double area() {
+		public double area() { // Método com o calculo da area 
 			double p = (a + b + c) / 2;
 			return Math.sqrt(p * (p - a) * (p - b) * (p - c));
 		}
