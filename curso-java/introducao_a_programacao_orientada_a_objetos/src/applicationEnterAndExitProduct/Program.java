@@ -1,4 +1,4 @@
-package applicationOfEntryAndOutOfProducts;
+package applicationEnterAndExitProduct;
 
 import java.util.Locale;
 import java.util.Scanner;
