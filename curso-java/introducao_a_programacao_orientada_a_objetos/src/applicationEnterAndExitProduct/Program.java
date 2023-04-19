@@ -24,13 +24,25 @@ public class Program {
 		System.out.print("Quantity in Stock: ");
 		product.quantity = sc.nextInt();
 		
-		System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
+		// System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
+		System.out.println();
+		System.out.print("Product data: " + product); // chamando o metodo toString implementado na classe Product
 		
-		System.out.print("Enter the number of products to be added in stock:");
-
+		System.out.println();
+		System.out.println("Enter the number of products to be added in stock: ");
+		int quantity = sc.nextInt();
+		product.addProduct(quantity);
 		
+		System.out.println();
+		System.out.println("Update data " + product);
 		
+		System.out.println();
+		System.out.println("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt();
+		product.removeProduct(quantity);	
 		
+		System.out.println();
+		System.out.println("Update data " + product);
 		
 		sc.close();
 	}
