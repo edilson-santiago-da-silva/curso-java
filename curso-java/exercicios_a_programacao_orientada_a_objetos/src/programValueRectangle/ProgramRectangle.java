@@ -17,10 +17,9 @@ public class ProgramRectangle {
 		rectangle.height = sc.nextDouble();
 		
 		if (rectangle.width != rectangle.height) { 
-			System.out.println();
+			
 			System.out.printf("Area: %.2f ", rectangle.area());
 			
-			System.out.println();
 			System.out.printf("Perimeter: %.2f ", rectangle.perimeter());
 			
 			System.out.println();
