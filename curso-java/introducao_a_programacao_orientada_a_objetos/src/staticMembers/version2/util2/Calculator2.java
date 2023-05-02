@@ -1,6 +1,6 @@
-package staticMembers.version2.util;
+package staticMembers.version2.util2;
 
-public class Calculator {
+public class Calculator2 {
 	public  final double PI = 3.14159; // word Final is constant. once assigned cannot be modified.
 	
 	public  double circumference(double radius) {

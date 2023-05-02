@@ -1,9 +1,9 @@
-package staticMembers.version2.programCircus;
+package staticMembers.version2.programCircus2;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import staticMembers.version2.util.Calculator;
+import staticMembers.version2.util2.Calculator2;
 
 public class ValueCircus2 {
 	
@@ -12,7 +12,7 @@ public class ValueCircus2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		Calculator calc = new Calculator();
+		Calculator2 calc = new Calculator2();
 		
 		System.out.println("Enter Radius:");
 		double radius =  sc.nextDouble();
