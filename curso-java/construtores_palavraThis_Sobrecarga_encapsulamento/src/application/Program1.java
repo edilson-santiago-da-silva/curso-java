@@ -24,6 +24,12 @@ public class Program1 {
 		
 		Product1 product1 = new Product1(name, price, quantity);
 		
+		product1.setName("Computer"); // Chamando o metodo set para dar um novo valor para o atributo.
+		System.out.println("Update name : " +  product1.getName()); // chamando o get para pegar o nome do atributo
+		
+		product1.setPrice(1200.00);
+		System.out.println("Update price : " + product1.getPrice());
+		
 		// System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
 		System.out.println();
 		System.out.print("Product data: " + product1); // chamando o metodo toString implementado na classe Product
