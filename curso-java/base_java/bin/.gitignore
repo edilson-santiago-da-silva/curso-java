@@ -1,5 +1,7 @@
 /AverageEven.class
 /BelowAverage.class
+/BoxingUnboxingAndWrapperClasses.class
+/ComentariosEmJava.class
 /DebugNoEclipse.class
 /Desco.class
 /Desco1.class
@@ -40,10 +42,13 @@
 /FuncoesMatematicas.class
 /FuncoesSintaxe.class
 /IfElse.class
+/LacoForEach.class
+/Listas.class
 /Main.class
 /ManipulacaoString.class
 /NegativeNumber.class
 /NumberEvenOdd.class
+/OperacaoSplitVector.class
 /OperadoresBitwise.class
 /OperadoresDeAtribuicaoCumulativa.class
 /ProcessamentoDeDadosECasting.class
@@ -55,6 +60,7 @@
 /approved/
 /bankAccount/
 /bankProgram/
+/employeeSalary/
 /entities/
 /entities1/
 /entitiesEmployee/
@@ -67,6 +73,7 @@
 /height/
 /higherPosition.class
 /hignerOld/
+/pensionato/
 /personData/
 /programNoteStudent/
 /programSalaryEmployee/
@@ -74,3 +81,5 @@
 /programValueRectangle/
 /staticMembers/
 /sumVector.class
+/diagonalAndNegativeNumber.class
+/ProgramTwoNumberForMatriz.class
