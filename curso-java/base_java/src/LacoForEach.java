@@ -1,3 +1,4 @@
+import java.time.ZoneId;
 
 public class LacoForEach {
 
@@ -13,6 +14,10 @@ public class LacoForEach {
 		//																								 <comandos> 			}
 		for (String obj : vect) {
 			System.out.println(obj);
+		}
+		
+		for(String s : ZoneId.getAvailableZoneIds()){ //imprimindo uma coleção de fuso horário de um objeto padrão do java.
+			System.out.println(s);
 		}
 	}
 
