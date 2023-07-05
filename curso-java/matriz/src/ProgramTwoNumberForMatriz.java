@@ -38,13 +38,9 @@ public class ProgramTwoNumberForMatriz {
 						System.out.println("Up:" + mat[i-1][j]);
 					}  
 					if (j < mat[i].length-1) {
-						System.out.print("ref number --");
-						System.out.println(mat[i].length-1);
 						System.out.println("Right: " + mat[i][j+1]);
 					}
 					if (i < mat.length-1) {
-						System.out.print("ref number -- ");
-						System.out.println(mat.length-1);
 						System.out.println("Down: " + mat[i+1][j]);
 					}
 				}
