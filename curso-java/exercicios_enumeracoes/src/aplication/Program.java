@@ -56,8 +56,6 @@ public class Program {
 		System.out.println("Income for " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
 		
 		
-		
-		
 		sc.close();
 	}
 
