@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 import entitiesProduct.Product;
 
+
+
 public class Program {
 
 	public static void main(String[] args) {
@@ -24,9 +26,9 @@ public class Program {
 		System.out.print("Quantity in Stock: ");
 		product.quantity = sc.nextInt();
 		
-		// System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
+		// System.out.printf("ProductNational data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
 		System.out.println();
-		System.out.print("Product data: " + product); // chamando o metodo toString implementado na classe Product
+		System.out.print("ProductNational data: " + product); // chamando o metodo toString implementado na classe ProductNational
 		
 		System.out.println();
 		System.out.println("Enter the number of products to be added in stock: ");

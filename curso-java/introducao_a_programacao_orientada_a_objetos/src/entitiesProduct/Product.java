@@ -18,7 +18,7 @@ public class Product {
 		this.quantity -= quantity;
 	}
 	
-	public String toString() { // como a classe Product assim como toString se trata de um OBJECT. Nesse metodo estou sobrepondo o product com  a operação toString que já vem por padrão. 
+	public String toString() { // como a classe ProductNational assim como toString se trata de um OBJECT. Nesse metodo estou sobrepondo o product com  a operação toString que já vem por padrão. 
 		return name 
 			+ ", $" 
 			+ String.format("%.2f", price)

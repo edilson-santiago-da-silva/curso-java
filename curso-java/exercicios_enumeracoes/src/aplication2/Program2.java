@@ -40,10 +40,10 @@ public class Program2 {
 		int n = sc.nextInt();
 		for(int i=1 ; i<=n ; i++) {
 			System.out.println("Enter #1 item data:");
-			System.out.print("Product name: ");
+			System.out.print("ProductNational name: ");
 			sc.nextLine();
 			String productName = sc.nextLine();
-			System.out.print("Product price:");
+			System.out.print("ProductNational price:");
 			double productPrice = sc.nextDouble();
 			
 			Product product = new Product(productName, productPrice);
