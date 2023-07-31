@@ -30,9 +30,9 @@ public class Program1 {
 		product1.setPrice(1200.00);
 		System.out.println("Update price : " + product1.getPrice());
 		
-		// System.out.printf("ProductNational data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
+		// System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f. %n", product.name, product.price, product.quantity, product.totalValueInStock());
 		System.out.println();
-		System.out.print("ProductNational data: " + product1); // chamando o metodo toString implementado na classe ProductNational
+		System.out.print("Product data: " + product1); // chamando o metodo toString implementado na classe Product
 		
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");

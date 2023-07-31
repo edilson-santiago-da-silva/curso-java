@@ -27,7 +27,7 @@ public class BoxingUnboxingAndWrapperClasses {
 		// Integer x = 10;
 		// int y = x * 2;
 		//------------------------------
-		// public class ProductNational {
+		// public class Product {
 		// public String name;
 		// public Double price;  -----> mais informaçãoes no pdf 10 pag.20 - google drive
 		// public Integer quantity;

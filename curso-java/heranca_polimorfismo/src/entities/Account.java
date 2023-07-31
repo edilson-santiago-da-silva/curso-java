@@ -1,5 +1,6 @@
 package entities;
 
+//public abstract class Account { - É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata.
 public class Account {
 	private Integer number;
 	private String holder;
