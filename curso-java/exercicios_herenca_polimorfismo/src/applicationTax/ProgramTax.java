@@ -54,9 +54,9 @@ public class ProgramTax {
 		double sum = 0.0;
 		System.out.println("TAXES PAID:");
 		for(TaxPayer tp : list) {
-			double tax = tp.tax();
-			System.out.println(tp.getName() + " $" + String.format("%.2f", tax));
-			sum += tax;
+			//double tax = tp.tax();
+			System.out.println(tp.getName() + " $" + String.format("%.2f", tp.tax()));
+			sum += tp.tax();
 		}
 		System.out.println();
 		System.out.println("TOTAL TAXES: " + String.format("%.2f", sum));
