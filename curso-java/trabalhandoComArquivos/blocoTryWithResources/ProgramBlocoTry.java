@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Program {
+public class ProgramBlocoTry {
 
 	public static void main(String[] args) {
 		String path = "C:\\temp\\ws-eclipse\\in.txt"; // forma curta, mais limpa.
