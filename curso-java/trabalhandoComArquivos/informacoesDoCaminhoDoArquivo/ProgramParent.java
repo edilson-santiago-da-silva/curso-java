@@ -18,7 +18,7 @@ public class ProgramParent {
 		System.out.println("getParent: " + path.getParent());//Caminho sem o arquivo
 		System.out.println("getParent: " + path.getPath()); //Caminho completo
 		
-		
+		sc.close();
 	}
 
 }
